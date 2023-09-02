@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#products p {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#showmore  {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+.container{
+    display: flex;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.product-item{
+    position: relative;
+}
+
+.decoration-color{
+    color: rgba(233, 128, 179, 0.697);
+}
+.featured-style{
+    border-bottom: 2px solid rgba(233, 128, 179, 0.697);
+}
+
+.special{
+ position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+ 
+}
+.discount{
+position: absolute;
+  top: 60px;
+  left: 30px;
+  padding: 5px;
+  font-weight: bold;
+}
+.discount-price{
+    position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.discount-similar{
+    position: absolute;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0 0 1.4rem;
+}
+
+
+.sale-box{
+    background-color: #DF4B63;
+    background-size: cover;
+    width: 506px;
+    height: 476px;
+}
+.sale-box-paragraph {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    bottom: 0px;
+    left: 130px;
+}
+.sale-box-heading{
+    position:relative ;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 65%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+h6{
+    color: gray;
+    opacity: 0.4;
+}
+.buttom-position{
+    line-height: 3;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+.icons{
+    width: 40%;
+    height: 20%;
+   position: absolute;
+   left: 250px;
+} 
+.btn-custom{
+    background-color: #ACDADC;
+}
+.btn-custom:hover{
+    background-color: #64b9be;
+}
+
+footer{
+    display: flex;
+}
+.footer-style{
+    position: relative;
+    display: flexbox;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+.payment{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
